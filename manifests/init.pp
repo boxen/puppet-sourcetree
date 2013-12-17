@@ -4,7 +4,7 @@
 #
 #   include sourcetree
 class sourcetree (
-  $version = '1.6.3.1',
+  $version = '1.8.0.3',
 ) {
   package { 'SourceTree':
     provider => 'appdmg',
