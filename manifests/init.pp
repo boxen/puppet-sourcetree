@@ -4,10 +4,10 @@
 #
 #   include sourcetree
 class sourcetree (
-  $version = '2.0.4',
+  $version = '2.3',
 ) {
   package { 'SourceTree':
-    provider => 'appdmg',
-    source   => "http://downloads.atlassian.com/software/sourcetree/SourceTree_${version}.dmg"
+    provider => 'compressed_app',
+    source   => "http://downloads.atlassian.com/software/sourcetree/SourceTree_${version}.zip"
   }
 }
