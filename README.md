@@ -1,20 +1,7 @@
-[![Build Status](https://travis-ci.org/boxen/puppet-sourcetree.png)](https://travis-ci.org/boxen/puppet-sourcetree)
-
 # SourceTree Puppet Module for Boxen
 
-Install [SourceTree](http://www.sourcetreeapp.com/), a free Mac client for Git And Mercurial version control systems.
+Deprecated in favour of [brewcask][1] and [Boxen's in built support for
+homebrew/brewcask][2].
 
-## Usage
-
-```puppet
-include sourcetree
-```
-
-## Required Puppet Modules
-
-* `boxen`
-
-## Development
-
-Write code. Run `script/cibuild` to test it. Check the `script`
-directory for other useful tools.
+[1]: https://caskroom.github.io/
+[2]: https://github.com/boxen/puppet-boxen/blob/master/manifests/personal.pp#L14-L17
